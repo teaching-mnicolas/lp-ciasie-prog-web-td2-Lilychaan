@@ -1,3 +1,4 @@
+
 describe("This", function() {
 
     it("is window if called like a function", function() {

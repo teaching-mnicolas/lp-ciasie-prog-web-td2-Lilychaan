@@ -34,7 +34,7 @@ describe("Function Name", function() {
             };
             let h = g;
             g = 1; // try to test without this line...
-            expect(h()).toEqual(10); // this line throw an exception, why ? | à cause de la ligne au-dessus qui redéfinit g, cela cause des problèmes, car la fonction g n'existe plus, g vaut 1 
+            expect(h()).toEqual(10); // this line throw an exception, why ? | à cause de la ligne au-dessus qui redéfinit g, cela cause des problèmes, car la fonction g n'existe plus, g vaut 1
         };
         expect(wrapper).toThrow(); // explain why it doesn't work !!! |
     });
